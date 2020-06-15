@@ -25,8 +25,8 @@ namespace 计算器
         {
             InitializeComponent();
         }
-        private Stack<double> num = new Stack<double>();
-        private Stack<char> op = new Stack<char>();
+        private Stack<double> num = new Stack<double>();     //用于存放数
+        private Stack<char> op = new Stack<char>();          //用于存放操作符
         private void digit0_Click(object sender, RoutedEventArgs e)
         {
             text.Content = text.Content + "0";
@@ -96,7 +96,7 @@ namespace 计算器
         {
             ChangeText("+");
         }
-        public void ChangeText(string op)
+        public void ChangeText(string op)     //字符操作时对文本的改变
         {
             string s = (string)text.Content;
             int len = s.Length;
@@ -108,7 +108,7 @@ namespace 计算器
                 {
                     text.Content += op;
                 }
-                else
+                else      //当前一个也是字符的情况
                 {
                     s = s.Remove(len - 1);
                     s += op;
@@ -130,14 +130,14 @@ namespace 计算器
             text.Content = s;
         }
 
-        private void Delete_Click(object sender, RoutedEventArgs e)
+        private void Delete_Click(object sender, RoutedEventArgs e)  //删除操作
         {
             string s = (string)text.Content;
             s = s.Remove(s.Length - 1);
             text.Content = s;
         }
 
-        private void C_Click(object sender, RoutedEventArgs e)
+        private void C_Click(object sender, RoutedEventArgs e)    //归零操作
         {
             text.Content = "";
             ans.Content = "";
@@ -166,7 +166,7 @@ namespace 计算器
            
         }
 
-        private void GetAns_Click(object sender, RoutedEventArgs e)
+        private void GetAns_Click(object sender, RoutedEventArgs e)      //对整个式子进行运算
         {
             string s = (string)text.Content + "=";
             int index = 0; double n = 0;
@@ -223,7 +223,7 @@ namespace 计算器
                 ans.Content = num.Peek();
         }
         
-        public char cmp(char op1,char op2)
+        public char cmp(char op1,char op2)    //进行优先级的比较
         {
             char res = ' ';
             switch (op1)
@@ -269,7 +269,7 @@ namespace 计算器
 
        
 
-        private void Reciprocal_Click(object sender, RoutedEventArgs e)
+        private void Reciprocal_Click(object sender, RoutedEventArgs e)   //求倒数
         {
             double item = 0;
             if(double.TryParse((string)text.Content,out item))
@@ -283,7 +283,7 @@ namespace 计算器
             }
         }
 
-        private void Square_Click(object sender, RoutedEventArgs e)
+        private void Square_Click(object sender, RoutedEventArgs e)      //求平方
         {
             double item = 0;
             if (double.TryParse((string)text.Content, out item))
@@ -297,7 +297,7 @@ namespace 计算器
             }
         }
 
-        private void Sqrt_Click(object sender, RoutedEventArgs e)
+        private void Sqrt_Click(object sender, RoutedEventArgs e)    //求开方
         {
             double item = 0;
             if (double.TryParse((string)text.Content, out item))

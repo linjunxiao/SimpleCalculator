@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "计算器", "计算器\计算器.csproj", "{03E07C25-77A8-45FF-AE6A-985FD373E82C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03E07C25-77A8-45FF-AE6A-985FD373E82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03E07C25-77A8-45FF-AE6A-985FD373E82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03E07C25-77A8-45FF-AE6A-985FD373E82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03E07C25-77A8-45FF-AE6A-985FD373E82C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B53813B-F1EC-43FC-B39D-99EE633E5F8F}
+	EndGlobalSection
+EndGlobal

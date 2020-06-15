@@ -1,0 +1,15 @@
+D:\c#study\计算器\计算器\bin\Debug\计算器.exe.config
+D:\c#study\计算器\计算器\bin\Debug\计算器.exe
+D:\c#study\计算器\计算器\bin\Debug\计算器.pdb
+D:\c#study\计算器\计算器\obj\Debug\计算器.csprojAssemblyReference.cache
+D:\c#study\计算器\计算器\obj\Debug\MainWindow.g.cs
+D:\c#study\计算器\计算器\obj\Debug\App.g.cs
+D:\c#study\计算器\计算器\obj\Debug\计算器_MarkupCompile.cache
+D:\c#study\计算器\计算器\obj\Debug\计算器_MarkupCompile.lref
+D:\c#study\计算器\计算器\obj\Debug\MainWindow.baml
+D:\c#study\计算器\计算器\obj\Debug\计算器.g.resources
+D:\c#study\计算器\计算器\obj\Debug\计算器.Properties.Resources.resources
+D:\c#study\计算器\计算器\obj\Debug\计算器.csproj.GenerateResource.cache
+D:\c#study\计算器\计算器\obj\Debug\计算器.csproj.CoreCompileInputs.cache
+D:\c#study\计算器\计算器\obj\Debug\计算器.exe
+D:\c#study\计算器\计算器\obj\Debug\计算器.pdb
